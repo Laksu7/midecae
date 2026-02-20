@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: #1fa3a3;
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  background: white;
+  color: #1fa3a3;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav a {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.footer {
+  background: #1fa3a3;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}

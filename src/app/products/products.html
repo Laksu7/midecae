@@ -1,0 +1,32 @@
+<section class="search-section">
+  <input 
+    type="text" 
+    placeholder="Search medicine name, brand, or type..."
+    [(ngModel)]="searchText"
+  />
+
+  <div class="categories">
+    <button
+      *ngFor="let cat of categories"
+      (click)="selectedCategory = cat"
+      [class.active]="selectedCategory === cat"
+    >
+      {{cat}}
+    </button>
+  </div>
+</section>
+
+<section class="products">
+  <div class="card" *ngFor="let product of filteredProducts">
+    <img [src]="product.image" [alt]="product.name" class="product-image">
+    <h3>{{product.name}}</h3>
+    <p>{{product.description}}</p>
+    <h4>\${{product.price.toFixed(2)}}</h4>
+    <button (click)="addToCart(product)">Add to Cart</button>
+  </div>
+</section>
+
+<section class="cart-summary">
+  <h3>🛒 Cart Items: {{cartCount}}</h3>
+  <h3>Total Price: ${{totalPrice.toFixed(2)}}</h3>
+</section>
