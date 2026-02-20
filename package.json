@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "test1",
+=======
+  "name": "haji",
+>>>>>>> 6e34046327d6b3aab39095475363452c66f8ecfa
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +11,11 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+<<<<<<< HEAD
     "serve:ssr:Test1": "node dist/Test1/server/server.mjs"
+=======
+    "serve:ssr:haji": "node dist/haji/server/server.mjs"
+>>>>>>> 6e34046327d6b3aab39095475363452c66f8ecfa
   },
   "prettier": {
     "printWidth": 100,
@@ -31,14 +39,23 @@
     "@angular/platform-browser": "^21.1.0",
     "@angular/platform-server": "^21.1.0",
     "@angular/router": "^21.1.0",
+<<<<<<< HEAD
     "@angular/ssr": "^21.1.4",
+=======
+    "@angular/ssr": "^21.1.2",
+>>>>>>> 6e34046327d6b3aab39095475363452c66f8ecfa
     "express": "^5.1.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@angular/build": "^21.1.4",
     "@angular/cli": "^21.1.4",
+=======
+    "@angular/build": "^21.1.2",
+    "@angular/cli": "^21.1.2",
+>>>>>>> 6e34046327d6b3aab39095475363452c66f8ecfa
     "@angular/compiler-cli": "^21.1.0",
     "@types/express": "^5.0.1",
     "@types/node": "^20.17.19",

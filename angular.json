@@ -3,11 +3,19 @@
   "version": 1,
   "cli": {
     "packageManager": "npm",
+<<<<<<< HEAD
     "analytics": "0f171af1-c0e5-488f-adb3-4c1b815145e9"
   },
   "newProjectRoot": "projects",
   "projects": {
     "Test1": {
+=======
+    "analytics": "1957c082-879a-4a6c-bb8e-6d894add51da"
+  },
+  "newProjectRoot": "projects",
+  "projects": {
+    "haji": {
+>>>>>>> 6e34046327d6b3aab39095475363452c66f8ecfa
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -62,10 +70,17 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "buildTarget": "Test1:build:production"
             },
             "development": {
               "buildTarget": "Test1:build:development"
+=======
+              "buildTarget": "haji:build:production"
+            },
+            "development": {
+              "buildTarget": "haji:build:development"
+>>>>>>> 6e34046327d6b3aab39095475363452c66f8ecfa
             }
           },
           "defaultConfiguration": "development"
